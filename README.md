@@ -27,8 +27,9 @@ make a pull request
 npm run test
 
 ## License
-This project is licensed under the None license.
+N/A
 
 ## Questions
 For any questions, you can reach me at [roracjohnson@gmail.com](mailto:roracjohnson@gmail.com) or visit my [GitHub profile](https://github.com/RoracJ).
   
+This project used source code from ChatGTP, then heavily modified by me.
