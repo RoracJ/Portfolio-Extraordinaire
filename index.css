@@ -1,0 +1,76 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #776666;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Basic Styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page {
+  background-color: #df6060;
+  width: 90%;
+  max-width: 800px;
+  padding: 2rem;
+  margin: 15rem auto; /* Increase margin-top to push it further down */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.content {
+  padding-top: 100px; /* Adjust based on header height */
+  padding-bottom: 80px; /* Adjust based on footer height */
+}
+
+header {
+  position: fixed; /* Keeps header at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #81a7e8;
+  color: #0e1e60;
+  text-align: center;
+  z-index: 1000; /* Ensures header stays above content */
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav a {
+  color: #77164b;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid #430505;
+}
+
+footer p {
+  margin: 0;
+}

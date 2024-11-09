@@ -1,0 +1,48 @@
+header {
+    width: 100%; /* Full width without potential viewport scroll issues */
+    padding: 1rem;
+    background-color: #222; /* Darker background for professionalism */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .header h1 {  
+    font-size: 2.5rem;
+    margin: 0;
+    color: #61dafb;
+    color: #61dafb; /* Starting color */
+    transition: transform 0.3s ease; /* Smooth scaling */
+  }
+  
+  /* Rainbow hover effect and growth */
+  .header h1:hover {
+    animation: rainbow 1.5s infinite; /* Rainbow animation */
+    transform: scale(1.2); /* Grows on hover */
+  }
+
+  /* Define the rainbow keyframes */
+  @keyframes rainbow {
+    0% { color: #ff0000; }   /* Red */
+    20% { color: #ff7f00; }  /* Orange */
+    40% { color: #ffff00; }  /* Yellow */
+    60% { color: #00ff00; }  /* Green */
+    80% { color: #0000ff; }  /* Blue */
+    100% { color: #8b00ff; } /* Purple */
+  }
+  nav {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #61dafb;
+  }
+  

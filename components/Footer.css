@@ -1,0 +1,26 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full page width */
+    padding: 1rem;
+    background-color: #222; /* Same dark background as header */
+    color: #fff;
+    text-align: center;
+    z-index: 1000; /* Ensures footer stays on top */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #470b4e;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
